@@ -24,13 +24,3 @@
 .card:hover {
   transform: translateY(-3px);
 }
-.MuiDataGrid-root {
-  border-radius: 12px;
-  border: none;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-}
-
-.MuiDataGrid-columnHeaders {
-  background: #f5f6fa;
-  font-weight: 600;
-}
