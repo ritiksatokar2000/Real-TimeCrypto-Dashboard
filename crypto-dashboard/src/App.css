@@ -1,6 +1,36 @@
 
-.crytoChart{
-  width: 65%;
+/* .crytoChart{
+  width: 55%;
   padding-top: 25px;
   padding-right:20px;
+} */
+.crytoContent{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 30px;
+  padding: 20px;
+}
+/* .crytoGraph{
+  width: 45%;
+  padding-top: 25px;
+} */
+ .card {
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+.MuiDataGrid-root {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.MuiDataGrid-columnHeaders {
+  background: #f5f6fa;
+  font-weight: 600;
 }
